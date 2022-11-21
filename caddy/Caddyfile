@@ -1,0 +1,13 @@
+
+midominio.com {
+    reverse_proxy portainer:9000
+}
+
+portainer.midominio.com: {
+    reverse_proxy portainer:9000
+
+}
+
+grafana.midominio.com: {
+   reverse_proxy grafana:3000
+}
